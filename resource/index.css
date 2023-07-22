@@ -1,0 +1,265 @@
+.body {
+    background-color: #84A7A1;
+    font-family: 'Arvo', serif;
+}
+
+h2 {
+    font-weight: 700 !important;
+    font-style: italic !important;
+    letter-spacing: 0.1em !important;
+    padding-top: 20px !important;
+}
+
+header {
+    font-family: 'Lugrasimo', cursive;
+    background: linear-gradient(0.25turn, #5BC0F8, #A0C3D2, #66347F);
+    color: rgb(43, 72, 101) !important;
+    letter-spacing: 0.35em;
+}
+
+nav {
+    position: sticky !important;
+    top: 20px;
+}
+
+.nav-link {
+    color: #22A699 !important;
+    padding: 10px 50px !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    background-color: #86A3B8;
+}
+
+.navbar-brand {
+    color: #8BF5FA !important;
+    font-weight: bold !important;
+}
+
+.container {
+    border: solid;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px auto;
+}
+
+.color {
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+.AB {
+    background-color: #F0F8FF;
+}
+
+.color1p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.65;
+}
+
+.B {
+    background-color: cornflowerblue;
+}
+
+.color2p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.C {
+    background-color: rgb(127, 255, 212);
+}
+
+.color3p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #40128B;
+    opacity: 0.85;
+}
+
+.D {
+    background-color: #8A2BE2;
+}
+
+.color4p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #ECE5C7;
+    opacity: 0.85;
+}
+
+.E {
+    background-color: #5F9EA0;
+}
+
+.color5p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #ECE5C7;
+}
+
+.F {
+    background-color: rgb(255, 127, 80);
+}
+
+.color6p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #080202;
+    opacity: 0.68;
+}
+
+.G {
+    background-color: rgb(178, 34, 34);
+}
+
+.color7p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #080202;
+    opacity: 0.68;
+}
+
+.H {
+    background-color: #00008B;
+}
+
+.color8p {
+    margin: 10px 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #F5EFE7;
+}
+
+.font-container {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.arvo {
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-label {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    background-color: #A78295;
+    color: white;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.buttoncol{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.buttoncol2{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.hovbutton{
+    color: black;
+    border: 2px solid #1D5D9B;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.hovbutton:hover{
+    color: white;
+    background-color: rgb(29, 93, 155);
+    border: 2px solid #1D5D9B;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.hovbutton2{
+    background-color: rgb(244, 209, 96);
+    color: black;
+    border: 2px solid #1D5D9B;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.hovbutton2:hover{
+    color:rgb(178, 34, 34);
+    background-color: white;
+    border: 2px solid #1D5D9B;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}

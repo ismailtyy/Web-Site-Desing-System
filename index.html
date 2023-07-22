@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Design System</title>
+  <link rel="stylesheet" href="resource/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+  </style>
+</head>
+
+<body class="body">
+  <header>
+    <h1>My Website Design System </h1>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#colors">Colors</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#fonts">Fonts</a>
+          <a class="nav-link" href="#text-styles">Text Styles</a>
+          <a class="nav-link" href="#buttons">Buttons</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <article id="colors" class="container">
+      <h2>Colors</h2>
+      <div class="color AB">
+        <p class="color1p">AliceBlue</p>
+        <p class="color1p">#F0F8FF</p>
+        <p class="color1p">RGB (240,248,255)</p>
+      </div>
+      <div class="color B">
+        <p class="color2p">CornflowerBlue</p>
+        <p class="color2p">#6495ED</p>
+        <p class="color2p">RGB (100,149,237)</p>
+      </div>
+      <div class="color C">
+        <p class="color3p">Aquamarine</p>
+        <p class="color3p">#7FFFD4</p>
+        <p class="color3p">RGB (127,255,212)</p>
+      </div>
+      <div class="color D">
+        <p class="color4p">BlueViolet</p>
+        <p class="color4p">#8A2BE2</p>
+        <p class="color4p">RGB (138,43,226)</p>
+      </div>
+      <div class="color E">
+        <p class="color5p">CadetBlue</p>
+        <p class="color5p">#5F9EA0</p>
+        <p class="color5p">RGB (95,158,160)</p>
+      </div>
+      <div class="color F">
+        <p class="color6p">Coral</p>
+        <p class="color6p">#FF7F50</p>
+        <p class="color6p">RGB (255,127,80)</p>
+      </div>
+      <div class="color G">
+        <p class="color7p">FireBrick</p>
+        <p class="color7p">#B22222</p>
+        <p class="color7p">RGB (178,34,34)</p>
+      </div>
+      <div class="color H">
+        <p class="color8p">DarkBlue</p>
+        <p class="color8p">#00008B</p>
+        <p class="color8p">RGB (0,0,139)</p>
+      </div>
+    </article>
+
+    <article id="fonts" class="container">
+      <h2>Fonts</h2>
+      <div class="font-container">
+        <p class="font-label arvo">Arvo</p>
+        <p class="arvo">Whereas recognition of the inherent dignity</p>
+        <p class="arvo bold">Whereas recognition of the inherent dignity</p>
+        <p class="arvo italic">Whereas recognition of the inherent dignity</p>
+      </div>
+      <div class="font-container">
+        <p class="font-label caveat">Caveat</p>
+        <p class="caveat">Whereas recognition of the inherent dignity</p>
+        <p class="caveat bold">Whereas recognition of the inherent dignity</p>
+        <p class="caveat italic">Whereas recognition of the inherent dignity</p>
+      </div>
+      <div class="font-container">
+        <p class="font-label ubuntu">Ubuntu</p>
+        <p class="ubuntu">Whereas recognition of the inherent dignity</p>
+        <p class="ubuntu bold">Whereas recognition of the inherent dignity</p>
+        <p class="ubuntu italic">Whereas recognition of the inherent dignity</p>
+      </div>
+      <div class="font-container">
+        <p class="font-label dancing-script">Dancing Script</p>
+        <p class="dancing-script">Whereas recognition of the inherent dignity</p>
+        <p class="dancing-script bold">Whereas recognition of the inherent dignity</p>
+        <p class="dancing-script italic">Whereas recognition of the inherent dignity</p>
+      </div>
+    </article>
+    <article id="text-styles" class="container">
+      <h2>Text Styles</h2>
+      <div class="text-container">
+        <div class="text-panel">
+          <h1>H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-size: 26px</li>
+            <li>Font-family: Nunito Sans</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <h2>H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 500</li>
+            <li>Font-size: 18px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+        <div class="text-panel">
+          <p>P: Paragraph text</p>
+          <ul>
+            <li>Font-weight: 400 (regular)</li>
+            <li>Font-size: 14px</li>
+            <li>Font-family: Poppins</li>
+          </ul>
+        </div>
+    </article>
+    <article id="buttons" class="container">
+      <h2>Buttons</h2>
+      <p>Click the buttons for codes.</p>
+
+      <div class="button-container">
+        <p style="font-weight: bold;">Basic Button Styling;</p>
+        <button>Default Button</button>
+        <a href="#" target="_blank"><button class="button">Button</button></a>
+      </div>
+
+      <div class="button-container">
+        <p style="font-weight: bold;">Colored Button Borders</p>
+        <button class="buttoncol">Red</button>
+        <button class="buttoncol2">Grenn</button>
+      </div>
+
+      <div class="button-container">
+        <p style="font-weight: bold;">Hoverable Buttons</p>
+        <button class="hovbutton">Navy</button>
+        <button class="hovbutton2">Yellow</button>
+      </div>
+
+    </article>
+
+
+  </main>
+</body>
+
+</html>
